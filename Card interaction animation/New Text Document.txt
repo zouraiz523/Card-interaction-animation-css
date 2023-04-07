@@ -1,0 +1,18 @@
+Hey everyone, welcome to my channel! In this video, we're going to take a look at a really cool Card interaction animation that I think you're going to love it.
+
+
+As you can see on the screen, we have a card with an image and some text on it. The card has a black background and when we hover over it, the image fades and scales down a bit, while the text becomes more prominent.
+
+
+Let's take a look at the CSS code that makes this happen. First, we set all margins and paddings to zero and use the box-sizing property to ensure that everything fits nicely inside the card. We also set the height of the body to 100% so that the card is centered vertically on the screen.
+
+Next, we create a .card class that sets the position to relative and gives it a specific width and height. We also set the background color to black and use the overflow property to ensure that the image doesn't spill over the edges of the card.
+
+Then we create a .card__image class that sets the height and width to 100% and uses the object-fit property to ensure that the image fits inside the card without distortion. We also add a scale and transition effect to make it appear as though the image is shrinking slightly when we hover over the card.
+
+The .card__body class is set to position absolute and is inset 0 so that it covers the entire card. We give it some padding, color and alignment properties to make the text look nice. We also add a transition effect to make the text appear as though it's popping out of the card when we hover over it.
+
+Finally, we add a ::before pseudo-element to the .card__body class and give it a border and a transition effect to create a nice highlight effect when we hover over the card.
+
+
+And there you have it! That's how you create a cool CSS card with hover effects using just a few lines of code. I hope you enjoyed this video and found it helpful. Don't forget to like, comment and subscribe for more awesome coding videos like this one. Thanks for watching!
